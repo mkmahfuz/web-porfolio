@@ -53,9 +53,11 @@ section{
     background-position: left;
 }
 
-.experience-area div{
-    box-shadow: 5px 7px 40px gray;
+.single-experience{
+    box-shadow: 5px 10px 40px gray;
+    border-radius: 5px;
     height: 80%;
+    background-color: white;
 }
 #full-stack{
     border-left: 7px solid;
@@ -66,4 +68,7 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
